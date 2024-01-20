@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.top{
+    background-image: url("https://scx2.b-cdn.net/gfx/news/2018/employees.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.black{
+    background-color: black;
+    padding: 50px;
+}
+.black,
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400px;
+    font-family: cursive;
+}
+.black h2 span{
+    font-size: 90px;
+    font-weight: 400px;
+}
+.mid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+    
+
+}
+.gride{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 05px;
+    margin: 90px;
+    background-color: lightblue;
+    color: rgb(8, 5, 0);
+    max-width: 320px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+    transition: 0.25 ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: 0.25 ease-in-out;
+}
+.para{
+    font-family: cursive;
+}
+.h3{
+    font-family: cursive;
+    
+}
+
+.card_container{
+    padding: 20px;
+}
+.card_container,
+h3{
+    margin-bottom: 10px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    background-color:lightseagreen;
+    font-size: 15px;
+    font-family: cursive;
+}
+.about{
+    background-color:lightcoral;
+    font-size: 15px;
+    font-family: cursive;
+}
+.contact,
+.about{
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+}
+.about h1,
+.contact h1 {
+    font-size: 54px;
+}
+.about p,
+.contact p {
+    margin-bottom: 30px;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 55px;
+    font-family: cursive;
+    text-align: center;
+}
